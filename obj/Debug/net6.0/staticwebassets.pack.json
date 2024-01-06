@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\University\\ASP.NET\\Gotowe\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Projekt.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Projekt.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\University\\ASP.NET\\Gotowe\\wwwroot\\css\\Bobr.jpg",
+      "PackagePath": "staticwebassets\\css\\Bobr.jpg"
+    },
+    {
+      "Id": "E:\\University\\ASP.NET\\Gotowe\\wwwroot\\css\\Dog.jpeg",
+      "PackagePath": "staticwebassets\\css\\Dog.jpeg"
+    },
+    {
+      "Id": "E:\\University\\ASP.NET\\Gotowe\\wwwroot\\css\\background.jpg",
+      "PackagePath": "staticwebassets\\css\\background.jpg"
+    },
+    {
+      "Id": "E:\\University\\ASP.NET\\Gotowe\\wwwroot\\css\\background_log.jpg",
+      "PackagePath": "staticwebassets\\css\\background_log.jpg"
+    },
+    {
+      "Id": "E:\\University\\ASP.NET\\Gotowe\\wwwroot\\css\\background_logined.jpg",
+      "PackagePath": "staticwebassets\\css\\background_logined.jpg"
+    },
+    {
+      "Id": "E:\\University\\ASP.NET\\Gotowe\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "E:\\University\\ASP.NET\\Gotowe\\wwwroot\\css\\logout.css",
+      "PackagePath": "staticwebassets\\css\\logout.css"
+    },
+    {
+      "Id": "E:\\University\\ASP.NET\\Gotowe\\wwwroot\\css\\register.css",
+      "PackagePath": "staticwebassets\\css\\register.css"
+    },
+    {
+      "Id": "E:\\University\\ASP.NET\\Gotowe\\wwwroot\\css\\tlo.css",
+      "PackagePath": "staticwebassets\\css\\tlo.css"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Projekt.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Projekt.props",
+      "PackagePath": "build\\Projekt.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Projekt.props",
+      "PackagePath": "buildMultiTargeting\\Projekt.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Projekt.props",
+      "PackagePath": "buildTransitive\\Projekt.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
