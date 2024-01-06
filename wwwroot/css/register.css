@@ -1,0 +1,79 @@
+/* register.css */
+
+body {
+    background-size: cover;
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #e00cd2; /* Text color for registration form */
+    background: url("Bobr.jpg") center center fixed;
+    background-size: cover;
+}
+
+.registration-page::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Darker overlay for better contrast */
+    z-index: -1;
+}
+
+#account_info {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #ffffff; /* White color for account information */
+}
+
+#content {
+    padding: 30px;
+    border-radius: 15px; /* Slightly reduced border-radius */
+    max-width: 400px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+    form label {
+        margin-bottom: 10px;
+        color: #e00cd2; /* Label color */
+    }
+
+    form input {
+        margin-bottom: 15px;
+        padding: 12px;
+        border: 2px solid #e00cd2;
+        border-radius: 8px; /* Slightly reduced border-radius */
+        font-size: 16px;
+        transition: border-color 0.3s ease;
+    }
+
+        form input[type="submit"] {
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            z-index: 1;
+            background-color: #e00cd2; /* Background color for submit button */
+            color: #fff; /* Text color for submit button */
+        }
+
+            form input[type="submit"]:hover {
+                background-color: #8e007f; /* Darker background on hover */
+            }
+
+        form input:focus {
+            border-color: #8e007f; /* Darker border color when focused */
+        }
+
+p {
+    margin-top: 15px;
+    color: #e00cd2; /* Text color for paragraphs */
+}
