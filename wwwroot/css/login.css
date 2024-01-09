@@ -1,0 +1,74 @@
+﻿/* logout.css */
+
+body {
+    background-size: cover;
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #09e122; /* Kolor tekstu dla formularza logowania */
+    background: url("Dog.jpeg") center center fixed;
+    background-size: cover;
+}
+
+.loggedin-page::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Przeźroczyste, ciemne tło */
+    z-index: -1;
+}
+
+#account_info {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #ffffff; /* Biały kolor tekstu dla informacji o koncie */
+}
+
+#content {
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 400px;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+    form label {
+        margin-bottom: 10px;
+    }
+
+    form input {
+        margin-bottom: 15px;
+        padding: 12px;
+        border: 2px solid #ced4da;
+        border-radius: 10px;
+        font-size: 16px;
+        transition: border-color 0.3s ease;
+    }
+
+        form input[type="submit"] {
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            z-index: 1;
+        }
+
+            form input[type="submit"]:hover {
+                background-color: #0056b3;
+            }
+
+        form input:focus {
+            border-color: #2ecc71;
+        }
+
+p {
+    margin-top: 15px;
+}
